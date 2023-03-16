@@ -4,7 +4,7 @@
       <v-row class="d-flex justify-center align-center">
         <v-col md="6" align="left">
           <p class="nav_title text-md-h4 text-h6 font-weight-bold">
-            Tweetical
+            Twittical
           </p></v-col
         >
         <v-col md="6" align="right" class="nav_logo-container">

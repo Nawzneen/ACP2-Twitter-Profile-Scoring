@@ -96,8 +96,6 @@
 
             <v-divider class="mx-16"></v-divider>
             <div>
-              <!-- <v-row class="mx-16" v-if="scores"> -->
-              <!-- <v-row class="scores-row"> </v-row> -->
               <v-row class="">
                 <v-col>
                   <p class="px-6 my-0 mt-8 text-sm-body-2 text-md-body-1">
@@ -182,24 +180,11 @@
                   </table>
                 </v-col>
               </v-row>
-              <!-- <div
-                  v-for="(score, index) in scores.negatives"
-                  :key="index + 3"
-                  class="red-text"
-                >
-                  <v-row class="mx-16">
-                    <v-col>
-                      <h2>SCORE.NAME</h2>
-                    </v-col>
-                    <v-col v-if="showPartial">
-                      <h2>SCORE.CONTRIBUTION</h2>
-                    </v-col>
-                  </v-row>
-                  <v-divider class="mx-16"></v-divider>
-                </div> -->
             </div>
           </v-card>
-          <div class="questionnaire-container bounce-animation">
+          <!-- Questionnaire is hidden for now  -->
+
+          <!-- <div class="questionnaire-container bounce-animation">
             <a
               class="questionnaire_link"
               :href="feedbackLink"
@@ -211,7 +196,7 @@
                 <BIconArrowRightCircleFill></BIconArrowRightCircleFill>
               </div>
             </a>
-          </div>
+          </div> -->
         </v-col>
         <!-- This Col is for the right container which includes the tweets from the API -->
         <v-col
@@ -245,7 +230,7 @@
 <script>
 import "bootstrap-vue/dist/bootstrap-vue-icons.min.css";
 import {
-  BIconArrowRightCircleFill,
+  // BIconArrowRightCircleFill,
   BIconCalendar3,
   // BIconAt,
   BIconGeoAlt,
@@ -259,7 +244,7 @@ export default {
   mounted() {},
   components: {
     Nav,
-    BIconArrowRightCircleFill,
+    // BIconArrowRightCircleFill,
     BIconCalendar3,
     BIconGeoAlt,
     // BIconAt,
